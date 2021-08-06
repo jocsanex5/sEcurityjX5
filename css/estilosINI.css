@@ -88,7 +88,7 @@ header nav ul li a:hover{
 	background-size: cover;
 	background-repeat: no-repeat; 
 	padding: 90px;
- 	background: url(http://localhost/public_html/recursos/fondo3.png); 
+ 	background: url(https://securityjx.herokuapp.com/recursos/fondo3.png); 
 	background-attachment: fixed;
 }
 
