@@ -1,0 +1,100 @@
+/*
+	Const_usu adaptado a dispositivos moviles S-JX
+*/
+
+@media	screen and (max-width: 800px){
+	.wrapper{
+		width: 100%;
+	}
+	
+	#btn-ops{
+		right: 5px;
+	}
+	
+	header nav ul{
+		right: 5px;
+	}
+
+	header nav ul li a{
+		font-size: 12px;
+		padding: 10px;
+	}
+	
+	.h2{
+		width: 90%;
+		font-size: 18px;
+	}
+	
+	#contBusqueda{
+		width: 50%;
+	}
+	
+	#imgHerramientas{
+		width: 70%;
+		margin: 0;
+	}
+	
+	.herreamientas{
+		width: 18%;
+		padding: 2px;
+		border-radius: 0px 30px 30px 30px;
+		bottom: 2px;
+	}
+	
+	.herreamientas button img{
+		width: 80%;
+	}
+	
+	.contras .no_hay_contras{
+		margin: 10px
+	}
+	
+	.contras .no_hay_contras:hover{
+		padding: 120px;
+		margin: 10px;
+	}
+	
+	.contras .no_hay_contras div img{
+		width: 80%;
+		height: 10%;
+	}
+	
+	.contras .no_hay_contras div img:hover{
+		width: 80%;
+		height: 10%;
+	}
+	
+	.contras .no_hay_contras div h2{
+		font-size: 14px;
+	}
+	
+	/*modal para agg contra*/
+    #imgAgg{
+        font-size: 80px;
+    }
+    
+    #NOMBRE_contra, #CONT_contra{
+        width: 250px;
+    }
+	
+	/*divs de las contras */
+	.some-cont, #f0rmModif{
+		width: 80%;
+	}
+	
+	.Alg-cont ul div div img{
+		width: 40%;
+		height: 40%;
+	}
+	
+	#NaMe{
+		font-size: 25px;
+		font-weight: bold;
+	}
+    
+    /* btns de most todo */
+    
+    .fas{
+        font-size: 30px;
+    }
+}

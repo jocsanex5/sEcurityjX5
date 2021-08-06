@@ -1,0 +1,334 @@
+/*
+	Estilos Index.html -SJX
+*/
+
+*{ margin: 0; padding: 0; }
+
+body{
+	text-align: center;
+	font-family: arial;
+	background: url(https://securityjx.herokuapp.com/recursos/fondo2.png);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+	width: 80%;
+    height: 100%;
+    margin: auto;
+	border: none;
+	padding: 5px;
+	border-radius: 20px;
+	background: #ffffff1a;
+	transition: all 1s;
+	animation: wrapper 1s;
+    
+}
+
+@keyframes wrapper{
+	0%{opacity: 0;}
+	100%{opacity: 2;}
+}
+
+.wrapper .presentme h2{
+	margin: 20px;
+	font-size: 23px;
+	letter-spacing: -0.054em;
+	font-weight: 700;
+	line-height: 1.2;
+	color: #131212e0;
+	transition: all 1s;
+	animation: h2 1s;
+}
+
+@keyframes h2{
+	0%{opacity: 0;}
+	100%{opacity: 2;}
+}
+
+.wrapper .presentme p{ 
+	margin: 20px;
+	font-size: 14px;
+	background: #000;
+	padding: 10px;
+	color: #fff;
+	border-radius: 20px;
+	transition: all 2s;
+}
+
+.wrapper .login div h3{
+	font-style: oblique;
+	color: #fffefeb0;
+	margin: 10px;
+}
+
+.login{
+	background: none;
+}
+
+form span img{
+	margin: 10px;
+	border: 2px solid #837e7e33;
+	border-radius: 20px;
+	transition: all 4s;
+}
+
+@keyframes form_span_img {
+	0%{width: 250px; border-radius: 100%; transform: rotate(180deg);}
+	50%{width: 250px; border-radius: 100%; transform: rotate(0deg);}
+	100%{widows: 200px; border-radius: 20px; transform:  rotate(0deg);} 
+}
+
+form .dat-usu input[type=text], 
+.dat-usu input[type=password],
+.data article form input[type=text], 
+.data article form input[type=password],
+.data article form input[type=email]{
+	margin: 5px;
+	padding: 15px;
+	width: 200px;
+	border: 1px solid #837e7e33;
+	border-radius: 20px;
+	text-align: center;
+	background: #56535373;
+	color: #fff;
+	transition: all 0.5s;
+	animation: inputs 1s;
+}
+
+@keyframes inputs {
+	0%{color: white; background: #9f5d5d73; padding: 20px;}
+	100%{color: #fff; background: #56535373; padding: 15px;}
+}
+
+form .dat-usu input[type=text]:hover, 
+.dat-usu input[type=password]:hover,
+.data article form input[type=text]:hover, 
+.data article form input[type=password]:hover,
+.data article form input[type=email]:hover{
+	color: white;
+	background: #9f5d5d73;
+}
+
+input[type=checkbox]{
+	margin: auto;
+}
+
+form input[type=submit]{
+	padding: 20px;
+	border: none;
+	border-radius: 10px;
+	margin: 10px;
+	width: 200px;
+	background: #ff0000c9;
+	color: #f9efef;
+	font-size: 18px;
+	transition: all 0.3s;
+	animation: submit 2s;
+	position: static;
+}
+
+@keyframes submit {
+	0%{margin: 20px;}
+	100%{margin: 10px;}
+}
+
+form input[type=submit]:hover{
+	background: #ff0000c9;
+	color: #f9efef;
+}
+
+form input[type=submit]:active{
+	padding: 15px;
+	margin: 15px;
+	width: 150px
+}
+
+form .opc{
+	margin: 25px;
+}
+
+form .opc span{
+	background: none;
+	margin: 10px;
+}
+
+form .opc span a{
+	color: #446c73;
+	margin: 10px;
+	position: relative;
+	bottom: 15px;
+	font-size: 14px;
+}
+
+form .opc span a:hover{
+	font-size: 15px;
+}
+
+/*-----------Crear usu------------*/
+.wrapper .enc article{
+	margin: 20px;
+	border-radius: 20px;
+	border: 2px solid #92a3a3e8;
+}
+
+.wrapper .enc .inf h2 {
+	margin: 20px;
+	padding: 5px;
+	background: #000;
+	color: #fff;
+	font-size: 20px;
+	font-style: oblique;
+	border-radius: 30px;
+}
+
+.wrapper .enc .inf p{
+	margin: 10px 12%;
+	background: #00000087;
+	color: #fff;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+.wrapper .enc .data h2{
+	margin: 10px;
+	font-size: 30px;
+	color: #fff;
+	background: #732c2a;
+	border-radius: 20px;
+	padding: 2px;
+}
+
+.data article form{
+	margin: 10px;
+	padding: 10px;
+}
+
+.data article form label{
+	font-size: 12px;
+	color: #fcfcfcad;
+	background: none;
+}
+
+.data article form .label-title{
+	font-size: 16px;
+	color: #fefafafc;
+	font-style: oblique;
+}
+
+.jx5{
+	margin: 20px;
+	display: block;
+}
+
+/*
+	Ayuda al usuario
+*/
+
+#btn-menu{
+	position: fixed;
+	top: 10px;
+	right: 50px;
+	padding: 3px; 
+	background: #fff;
+	border: 2px solid #000;
+	border-radius: 10px;
+	color: #fff;
+}
+
+#btn-menu img{
+	transition: all 0.5s;
+}
+
+#btn-menu img:active{
+	width: 20px;
+}
+
+/*ventana de alertas*/
+#quitar{
+	float: right;
+	padding: 5px;
+	margin: 10px -10px 5px;
+	border: 2px solid #000;
+	border-radius: 10px;
+	background: #fff;
+}
+
+/* loader */
+.loader{
+	background: #f3f3f3;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	transition: all 1s;
+}
+
+#ir-a-inicio{
+		display: block;
+		margin: 10px;
+		color: #446c73;
+	  font-size: 14px;
+	}
+
+#ir-a-inicio:hover{
+	font-size: 15px;
+}
+
+.carga{
+	padding: 20px;
+	background: #0042fffc;
+	margin: 10px;
+	transition: all 2s;
+}
+
+.carga:nth-child(1){
+	animation: SDF 3s infinite;
+}
+
+.carga:nth-child(2){
+	animation: SDF 3s 0.5s infinite;
+}
+
+.carga:nth-child(3){
+	animation: SDF 3s 1s infinite;
+}
+
+@keyframes SDF{
+	0%{background: red; border-radius: 100%;} 
+	
+	100%{background: #0042fffc;}
+}
+
+/*
+  imagenes de las redes sociales
+*/
+
+.redes{
+	position: fixed;
+	top: 100px;
+	right: 30px;
+}
+
+.redes div i{
+	border-radius: 10px;
+	border: 3px solid #686767;
+	transition: all 0.5s;
+	cursor: pointer;
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.redes div i:hover{
+	border: 3px solid #23c2d2;
+	margin-right: 15px;
+}

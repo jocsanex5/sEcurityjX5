@@ -1,0 +1,36 @@
+@media screen and (max-width: 800px){
+	.wrapper{
+        width: 100%;
+        padding: 25% 0;
+    }
+	
+	#btn-ops{right: 5px;}
+	
+	header nav ul{right: 5px;}
+
+	header nav ul li a{font-size: 12px; padding: 10px;}
+	
+	/* div de contenido */
+	.welcome{
+        width: 80%;
+		margin: auto;
+    }
+	
+	#imagenUsu{width: 70%;
+		margin: 0px;}
+	
+	.bienvenida-usu{margin: 10px;}
+	
+	#noDUMD{font-size: 20px;}
+	
+	.infor-al-usu{width: 80%;}
+	
+	#emDUMD{ font-size: 14px; }
+	
+	.btns-ops{ width: 98%; font-size: 15px; }
+	.btns-ops:hover{padding: 25px 15px; width: 98%;}
+	
+	/* modal */
+	.modal{width: 80%;}
+	#confir-nC, #cancel_nC, #confir-elim, #cancel_nC2{width: 80%;}
+}

@@ -1,0 +1,120 @@
+/*
+	Adap a dispositivos moviles S-JX
+*/
+
+@media screen and (max-width: 800px){
+	.wrapper{
+		width: 95%;
+        padding: 25% 0%;
+	}
+	
+	.wrapper .presentme h2{
+		font-size: 27px;
+	}
+	
+	.wrapper .presentme p{
+		margin: 10px;
+		font-size: 12px;
+	}
+	
+	.wrapper .login div h3{
+		font-size: 14px;
+	}
+	
+	form span img{
+		width: 180px;
+	}
+	
+	#nombre, #pass{
+		width: 260px;
+		margin-top: 10px; 
+	}
+	
+	#ingresar{
+		width: 268px;
+		padding: 20px;
+		margin: 20px;
+		font-size: 18px;
+	}
+	
+	#ingresar:active{
+		padding: 10px;
+		width: 200px;
+	}
+	
+	/*--modal----*/
+	.modal{
+		width: 300px;
+	}
+	
+	img[src="recursos/logo.png"]{
+		width: 200px;
+	}
+	
+	@keyframes imgLogo{
+		0%{
+			width: 100px;
+		}
+		
+		100%{
+			width: 200px;
+		}
+	}
+	
+	.modal h2{
+		font-size: 18px;
+	}
+	
+	.modal p{
+		font-size: 14px;
+	}
+	
+	/*--menu btn--*/
+	#btn-menu{
+		right: 5px;
+	}
+	
+	/*
+	    --------------------------------
+	
+	     Pagina para crear usuarios
+	*/
+	.wrapper .enc .inf p{
+		font-size: 12px;
+	}
+	
+	.wrapper .enc .data h2{
+		font-size: 24px;
+	}
+	
+	.data article form .label-title{
+		font-size: 14px;
+	}
+	
+	#pass, #conf{
+		width: 250px;
+	}
+	
+	#ir-a-inicio{
+		margin: 10px;
+		display: block;
+		color: #000;
+		font-size: 14px;
+	}
+	
+	#ir-a-inicio:hover{
+		color: #fff;
+	}
+	
+	/* redes sociales */
+	.redes{
+		right: 10px;
+	}
+	
+	.redes div i{
+		background: #fff;
+        padding: 3px;
+        margin-bottom: 2px;
+        font-size: 30px;
+	}
+}

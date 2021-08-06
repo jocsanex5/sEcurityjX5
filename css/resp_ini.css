@@ -1,0 +1,114 @@
+/*
+	inicio Dispositivos moviles S-JX
+*/
+
+@media screen and (max-width: 800px){
+	.wrapper{
+		width: 100%;
+	}
+	
+	#btn-ops{
+		right: 5px;
+	}
+	
+	header nav ul{
+		right: 5px;
+	}
+	
+	header nav ul li a{
+		font-size: 12px;
+		padding: 10px;
+	}
+	
+	.welcome .img-usu img{
+		width: 200px;
+	}
+	
+	.welcome{
+		padding: 10px;
+		padding-top: 60px; 
+		padding-bottom: 60px; 
+	}
+	
+	.bienvenida-usu{
+		margin: 10px;
+	}
+	
+	.bienvenida-usu h2{
+		font-size: 30px;
+	}
+	
+	.infor-al-usu{
+		width: 80%;
+		font-size: 12px;
+	}
+	
+	.dat-vent{
+		margin: 10px
+	}
+	
+	/*---*/
+	.alg_recom{
+		padding: 0px;
+	}
+	
+	.dat-vent div ul li{
+		font-size: 14px;
+	}
+	
+	/*.ayuda .ayu-JX h3*/
+	.ayuda .ayu-JX h3{
+		font-size: 25px;
+	}
+	
+	.ayuda .preguntas{
+		width: 86%;
+		margin: 0px;
+	}
+	
+	.ayuda .preguntas ul li{
+		width: 80%;
+		font-size: 16px;
+	}
+	
+	/* modal */
+	.modal{
+		width: 80%;
+	}
+	
+	#hElp2 .modal .alm-contras .list{font-size: 12px;}
+	
+	/*menu de opciones*/
+	.li_ops{
+		margin: 10px;
+	}
+	
+	.a_ops{
+		padding: 10px;
+		font-size: 13px;
+	}
+	
+	.a_ops:hover{
+		font-size: 15px;
+	}
+	
+	/* xd */
+	.proyec{
+		margin: 10px;
+	}
+	
+	.proyec div img{
+		width: 80%;
+	}
+	
+	.dibuj{
+		width: 45%;
+		padding: auto;
+		margin: auto;
+	}
+	
+	.dibuj article .seja{
+		width: 300px;
+		transform: rotate(2deg);
+	}
+}

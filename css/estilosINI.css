@@ -1,0 +1,154 @@
+/*
+	Estilos de Security-JX (inicio)
+
+	by Jx5...
+*/
+
+/*-----Estilos generales-----*/
+*{ margin: 0; padding: 0; }
+
+body{
+	text-align: center;
+	font-family: arial; 
+	background: #050303d1;
+}
+
+.wrapper{
+	padding: auto;
+}
+
+#btn-ops{
+	padding: 3px;
+	background: #fff;
+	border: 2px solid #000;
+	position: fixed;
+	top: 10px;
+	right: 20px;
+	border-radius: 10px;
+}
+
+/*-----Boton del menu de opciones-----*/
+#btn-ops img{
+	transition: all 0.1s;
+}
+
+#btn-ops img:active{
+	 width: 20px;
+}
+
+/*-----Estilos del header-----*/
+header nav ul{
+	display: none;
+	position: fixed;
+	top: 50px;
+	right: 30px;
+	background: #034c6c;
+	list-style: none;
+	margin: 10px;
+	border-radius: 15px;
+	transition: all 1s;
+}
+
+@keyframes nav_ul{
+	0%{right: -200px; opacity: 0;}
+	100%{right: 30px; opacity: 2;}
+}
+
+@keyframes nav_ul_no{
+	0%{right: 30px; opacity: 2;}
+	100%{right: -200px; opacity: 0;}
+}
+
+header nav ul li{
+  	display: inline-block;
+	border-radius: 12px;
+	transition: all 0.5s;
+}
+
+header nav ul li:hover{
+	background: rgb(2, 237, 255);
+}
+
+header nav ul li a{
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+}
+
+header nav ul li a:hover{
+	color: #5c5353e3;
+	font-weight: bold;
+	padding: 8px 15px;
+	margin: 2px;
+}
+
+/*----El contenedor de la bienvenida al usuario----*/
+.welcome{
+	background-size: cover;
+	background-repeat: no-repeat; 
+	padding: 90px;
+ 	background: url(http://localhost/public_html/recursos/fondo3.png); 
+	background-attachment: fixed;
+}
+
+.welcome .img-usu img{
+	border-radius: 100%;
+	box-shadow: 2px 2px 6px 3px #0c191f;
+	transition: all 1s;
+	animation: img_usu 2s;
+}
+
+.welcome .img-usu img:hover{
+  filter: opacity(50%);
+	cursor: pointer;
+}
+
+@keyframes img_usu{
+	0%{transform: rotate(180deg);}
+	100%{transform: rotate(0deg);}
+}
+
+#lienzo{
+	background: red;
+}
+
+.bienvenida-usu{
+	margin: 20px 330px;
+	padding: 5px;
+	color: #fff;
+	background: #000;
+	border-radius: 20px;
+	display: block;
+	transition: all 2s;
+	animation: h2_usu 2s;
+}
+
+.bienvenida-usu h2{
+	font-size: 45px;
+	font-weight: bold;
+	font-style: oblique;
+}
+
+.h2-2-ini, .h2-1-ini{
+	transition: all 1s;
+}
+
+.h2-1-ini h2{
+	animation: h_bienv 1.5s;
+}
+
+@keyframes h_bienv {
+	0%{font-size: 20px;} 
+	100%{font-size: 30px;}
+}
+
+@keyframes h_nomb {
+	0%{opacity: 0;}
+	100%{opacity: 2;}
+}
+
+@keyframes h2_usu{
+	0%{background: #da2323;}
+	100%{background: #000;}
+}

@@ -1,0 +1,255 @@
+/*-----datos para el usu-----*/
+
+.infor-al-usu{
+	background: #231d1d82;
+	padding: 15px;
+	color: #fff;
+	width: 600px;
+	display: inline-block;
+	border-radius: 20px;
+	transition: all 2s;
+	animation: infor_usu 2s;
+}
+
+@keyframes infor_usu{
+	0%{
+		position: relative;
+		top: 50px;
+	}
+	50%{
+		position: relative;
+		top: -10px;
+	}
+	100%{
+		position: relative;
+		top: 0px;
+	}
+}
+
+.infor-al-usu .hola{
+	margin: 5px;
+	display: block;
+	font-weight: bold;
+}
+
+/*-----Articulos-----*/
+.some-dat{
+	margin: 30px auto;
+}
+
+.dat-vent{
+	background: #fff;
+	padding: 20px;
+}
+
+.dat-vent{
+	margin: 15px 100px;
+	border-radius: 20px;
+}
+
+.dat-vent article{
+	background: none;
+	padding: 30px;
+	margin: auto;
+	border-radius: 20px;
+	border: 2px solid #034c6c;
+}
+
+.vent-JX{
+	margin: 10px;
+	font-size: 20px; 
+	color:  #981c1c;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.dat-vent div ul{
+	display: inline-block;
+}
+
+.dat-vent div ul li{
+	text-align: justify;
+	margin: 15px;
+}
+
+.alg_recom{
+	padding: 0px 100px;
+}
+
+.modal{
+	background: #fff;
+}
+
+
+/*----Dibujo del ojo-----*/
+.dibuj{
+	background: none;
+	position: relative;
+	padding: 40px;
+	padding-top: 100px; 
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.dibuj article .seja{
+	width: 320px;
+	height: 300px;
+	border-radius: 100%;
+	position: absolute;
+	top: 5px;
+	border: 10px solid #000;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+
+.dibuj article #logo{
+	background: #fff;
+	border-radius: 100%;
+	border: 12px solid #000;
+	width: 300px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 3px 4px 8px 3px #1c0f0f;
+}
+
+.dibuj article #logo .ojo{
+	background: blue;
+	width: 100px;
+	height: 130px;
+	border-radius: 20px;
+	position: relative;
+	transition: all 0.1s;
+}
+
+@keyframes ojoA{
+	0%{height: 130px;}
+	50%{height: 0;}
+	100%{height: 130px;}
+}
+
+@keyframes ojoB{
+	0%{height: 130px;}
+	50%{height: 0;}
+	100%{height: 130px;}
+}
+
+/*-----Necesitas ayuda------*/
+.ayuda{
+	margin: 30px;
+}
+
+.ayuda .ayu-JX h3{
+	margin: 10px;
+	font-size: 40px;
+	background: none;
+	color: #fff;
+	border: 2px solid #034c6c;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	transition: all 1.5s;
+}
+
+.ayuda .ayu-JX h3:hover{
+	border: 2px solid red;
+	border-radius: 20px;
+}
+
+.ayuda .preguntas{
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	width: 700px;
+	margin: auto;
+}
+
+.ayuda .preguntas ul li{
+	font-size: 24px;
+	font-weight: 700;
+	list-style: none;
+	background: #92c1d5;
+	padding: 15px;
+	width: 600px;
+	display: inline-block;
+	border-radius: 10px;
+	margin: 5px;
+	font-style: oblique;
+	transition: all 0.5s;
+}
+
+.ayuda .preguntas ul li:hover{
+	background: #b12121;
+	cursor: pointer;
+}
+
+/*-----preguntas-----*/
+
+.alm-contras li{
+	margin: 20px;
+	border-top: 3px solid #05224e;
+	list-style: none;
+	padding: 20px 5px 5px;
+	transition: all 0.5s;
+}
+
+alm-contras li:hover{
+	border-top: 3px solid rgb(2, 237, 255);
+	background: #ccc7c7;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.list{
+	text-align: center;
+	margin-bottom: 20px;
+	display: block;
+	font-size: 16px;
+}
+
+.alm-contras li div img{
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px #1a3338;
+}
+
+
+/* referencias */
+.proyec{
+	background: #fff;
+	margin: 20px 200px;
+	border-radius: 20px;
+	padding: 10px;
+	transition: all 1s;
+}
+
+.proyec:hover{
+	transform: scale(1.2);
+	background: #c3bfbf7a;
+	margin-top: 50px; 
+}
+
+.proyec div a{
+	margin: 20px;
+	font-size: 16px;
+	display: block;
+	color: #000;
+}
+
+.h4{
+	font-size: 30px;
+}
+
+.proyec div p{
+	margin: 10px;
+}
+
+.proyec div img{
+	border-radius: 20px;
+	box-shadow: 2px 2px 6px 3px #0c191f;
+	margin: 10px;
+}

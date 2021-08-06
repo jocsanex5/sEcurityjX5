@@ -1,0 +1,181 @@
+
+/*-------------------------------------------------------------*/
+
+.welcome{
+	background: #383534;
+	margin: 30px;
+	border-radius: 30px;
+	padding: 30px;
+}
+
+article{
+	background: #fff;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+/*-----Nueva imagen del usuario-----*/
+
+.welcome .img-usu img{
+	border-radius: 20%;
+}
+
+/*-----Nuevo nombre del usuario-----*/
+
+#noDUMD{
+	background: none;
+	border: none;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	font-family: arial;
+	font-size: 40px;
+	
+	font-weight: bold;
+	font-style: oblique;
+}
+
+.bienvenida-usu{
+	padding: 15px;
+}
+
+/*----Nuevo correo del usu-----*/
+
+#emDUMD{
+	background: none;
+	border: none;
+	margin-top: 6px;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+}
+
+.infor-al-usu{
+	padding: 10px;
+}
+
+/*-----btns de opciones-----*/
+
+.btns-ops{
+	margin: 4px;
+	padding: 20px 10px;
+	width: 300px;
+	border: none;
+	border-radius: 20px;
+	font-size: 18px;
+	font-family: arial;
+	font-weight: bold;
+	color: #fff;
+	transition: all 0.5s;
+}
+
+.confirmar{
+	margin-top: 20px;
+}
+
+.confirmar, .cambiar{
+	background: #3b3c3c;
+}
+
+.confirmar:hover, .cambiar:hover{
+	background: #f5f0f0;
+	color: #000;
+	padding: 30px 20px;
+	width: 320px;
+}
+
+.eliminar{
+	background: red;
+}
+
+.eliminar:hover{
+	background: #f5f0f0;
+	color: #000;
+	padding: 30px 20px;
+	width: 320px;
+}
+
+/*----estilos del modal de cambiar contra-----*/
+
+.inPut-nC{
+	display: flex;
+	flex-direction: column;
+  align-items: center;
+}
+
+.inPut-nC input, .div-cofirm-contra input{
+	margin: 5px;
+	padding: 10px;
+	text-align: center;
+	width: 200px;
+	border: 2px solid #b3acac;
+	border-radius: 20px;
+	transition: all 0.5s;
+}
+
+input[type=password]:hover{
+  border: 2px solid #034c6c;
+}
+
+/*----btns-confirm-----*/
+
+@keyframes hElp3{
+	0%{opacity: 0;}
+	100%{opacity: 2;}
+}
+
+@keyframes nV_hElp3{
+	0%{opacity: 2;}
+	100%{opacity: 0;}
+}
+
+.btns-confirm{
+	margin: 10px;
+}
+
+#confir-nC, #cancel_nC, #confir-elim, #cancel_nC2{
+	padding: 15px;
+	width: 140px;
+	font-family: arial;
+	font-size: 17px;
+	font-weight: bold;
+	border: none;
+	margin: 5px;
+	border-radius: 10px;
+	color: #fff;
+}
+
+#confir-nC, #confir-elim{
+	background: #000;
+}
+
+/*imagen de alerta*/
+.imgAlerta{
+	margin: 5px;
+}
+
+/*------Eliminacion de la cuenta-----*/
+.cont-elimCuenta{
+  font-family: arial;	
+}
+
+.cont-elimCuenta .clec{
+	font-size: 18px;
+	font-weight: bold;
+	font-style: oblique;
+	margin: 10px;
+}
+
+.cont-elimCuenta div ul{
+	margin: 20px;
+}
+
+.cont-elimCuenta div ul li{
+	margin: 4px;
+	text-align: left;
+}
+
+.div-cofirm-contra input{
+	margin: 10px;
+}

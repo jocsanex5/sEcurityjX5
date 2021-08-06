@@ -1,0 +1,112 @@
+/*
+	Estilos de Security-JX (datos invaliddos)
+
+	by Jx5...
+*/
+
+/*-----Estilos generales-----*/
+*{ margin: 0; padding: 0; }
+
+body{
+	text-align: center;
+	font-family: arial; 
+	background: #050303d1;
+}
+
+.wrapper{
+	padding: auto;
+	color: #000;
+}
+
+.wrapper .msg{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #fff;
+	width: 96%;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	text-align: center;
+	border-radius: 20px;
+	transition: all 2s;
+	overflow: auto;
+	max-height: 90%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/* loader */
+.loader{
+	margin: 10px;
+}
+
+.loader .circ{
+	display: block;
+	float: left;
+	background: red;
+	padding: 20px;
+	margin: 10px;
+	transition: all 2s;
+}
+
+.loader .circ:nth-child(1){
+	animation: loader 3s infinite;
+}
+
+.loader .circ:nth-child(2){
+	animation: loader 3s 0.5s infinite;
+}
+
+.loader .circ:nth-child(3){
+	animation: loader 3s 1s infinite;
+}
+
+@keyframes loader{
+	0%{ 
+		 padding: 0px;
+		margin: 30px;
+	}
+	
+	100%{
+		padding: 20px;
+		margin: 10px;
+	}
+}
+
+.wrapper div h3{
+	margin: 20px;
+	font-size: 20px;
+}
+
+.msg > div:nth-child(3) > p:nth-child(2){
+	margin: 20px;
+	font-style: oblique;
+	font-size: 17px;
+}
+
+.wrapper div h3{
+	margin: 20px;
+	font-size: 20px;
+}
+
+.msg > div:nth-child(3) > p:nth-child(2){
+	margin: 20px;
+	font-style: oblique;
+	font-size: 17px;
+}
+
+@media screen and (max-width: 800px){
+
+	.wrapper{
+		width: 95%;
+	}
+
+	.wrapper .msg{
+		width: 88%;
+	}
+}

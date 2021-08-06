@@ -1,0 +1,33 @@
+/*
+	Crear usu Dispositivos moviles S-JX
+*/
+
+@media screen and (max-width: 800px){
+	.wrapper{
+		width: 95%;
+        margin: auto;
+        padding: 25% 0%;
+	}
+	
+	.wrapper .enc .inf p{
+		font-size: 12px;
+	}
+	
+	.wrapper .enc .data h2{
+		font-size: 23px;
+	}
+	
+	.data article form .label-title{
+		font-size: 14px;
+	}
+	
+	#ir-a-inicio{
+		display: block;
+		margin: 10px;
+		font-size: 14px;
+	}
+	
+	#ir-a-inicio:hover{
+		font-size: 15px;
+	}
+}
