@@ -74,7 +74,17 @@
 
 				if($resultado_AGG_contra){ 
 
-					return "<script>window.location = 'conts_usu.php';</script>";
+					?>
+					<script>
+
+						Swal.fire({
+							showConfirmButton : false,
+							title : 'Espere un momento...'
+						})
+
+						window.location = 'conts_usu.php';
+					</script>
+					<?php
 				
 				} else $mSg = 'Ha ocurrido un error!'; $tIpo = 'error';
 				
@@ -104,7 +114,14 @@
 
 				if($resultado_modif){
 
-					return "<script>window.location = 'conts_usu.php';</script>";
+					?><script>
+						Swal.fire({
+							showConfirmButton : false,
+							title : 'Espere un momento...'
+						})
+
+						window.location = 'conts_usu.php';
+					</script><?php
 
 				} else $mSg = 'Ha ocurrido un error!!!'; $tIpo = 'error';
 
@@ -129,8 +146,17 @@
 				return "<script>msg('Ha ocurrido un error al eliminar la contraseña', 'error');</script>";
 			
 			} else{
+				?>
+				<script>
 
-				return "<script>window.location = 'conts_usu.php'</script>";
+					Swal.fire({
+						showConfirmButton : false,
+						title : 'Espere un momento...'
+					})
+
+					window.location = 'conts_usu.php';
+				</script>
+				<?php
 			} 
 		}
 

@@ -69,8 +69,8 @@
 	}
 	
 	/*modal para agg contra*/
-    #imgAgg{
-        font-size: 80px;
+    .tipos-contras i{
+        font-size: 60px;
     }
     
     #NOMBRE_contra, #CONT_contra{

@@ -11,7 +11,7 @@
 ?>   
   
 <!-- By Jx5 --> 
-<!DOCTYPE html> 
+<!DOCTYPE html>  
 <html lang="en">
 <head> 
 	<meta charset="UTF-8">
@@ -70,9 +70,6 @@
 			</section>
 
 			<section class="herreamientas">
-				<div>
-					<img id="imgHerramientas" src="recursos/icons/configuraciones.svg" width="100px"  alt="">
-				</div>
 				<div>
 					<div class="btns-herramientas">
 						<button class="No-active" id="btn-modifContras" title="modificar contraseña">

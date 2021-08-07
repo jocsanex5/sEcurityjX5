@@ -30,7 +30,7 @@
 	.btns-ops{ width: 98%; font-size: 15px; }
 	.btns-ops:hover{padding: 25px 15px; width: 98%;}
 	
-	/* modal */
-	.modal{width: 80%;}
-	#confir-nC, #cancel_nC, #confir-elim, #cancel_nC2{width: 80%;}
+    .imgAlerta{
+        width: 80%;
+    }
 }

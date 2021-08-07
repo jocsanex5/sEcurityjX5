@@ -224,7 +224,7 @@
 									</div> 
 
 										<div>
-											<a href="https://jocsanex5.github.io/DADA/">jocsanex5/DADA</a>
+											<a target="_blank" href="https://jocsanex5.github.io/DADA/">jocsanex5/DADA</a>
 										</div>
 
 									<div>
@@ -238,7 +238,7 @@
 							</div>
 
 								<div>
-									<a href="https://jocsanex5.github.io/CartesiaApp/">jocsanex5/CartesianApp</a>
+									<a target="_blank" href="https://jocsanex5.github.io/CartesiaApp/">jocsanex5/CartesianApp</a>
 								</div>
 
 							<div>
@@ -252,7 +252,7 @@
 								</div>
 
 									<div>
-										<a href="https://jocsanex5.github.io/CircleGame1.3.1/">jocsanex5/CircleGame</a>
+										<a target="_blank" href="https://jocsanex5.github.io/CircleGame1.3.1/">jocsanex5/CircleGame</a>
 									</div>
 
 								<div>
@@ -262,15 +262,29 @@
 
 						<div class="proyec">
 							<div>
-								<h4 class="vent-JX h4">Baleada Jump</h4>
+								<h4 class="vent-JX h4">Do-Note</h4>
 							</div>
 
 								<div>
-									<a  href="https://baleadajump.000webhostapp.com/">jocsanex5/BaleadaJump</a>
+									<a target="_blank" href="https://jocsanex5.github.io/doNote_LV/index.html">jocsanex5/doNote_LV</a>
 								</div>
 
 							<div>
-								<img src="recursos/BJ.png" width="300px" alt="">
+								<img src="https://raw.githubusercontent.com/jocsanex5/doNote_LV/master/recursos/logo.png" width="300px" alt="">
+							</div>
+						</div>
+
+						<div class="proyec">
+							<div>
+								<h4 class="vent-JX h4">Para ver mas...</h4>
+							</div>
+
+								<div>
+									<a target="_blank" href="https://github.com/jocsanex5/">visita mi perfil de Git-hub</a>
+								</div>
+
+							<div>
+								<i class="fab fa-github"></i>
 							</div>
 						</div>
 					</article>
@@ -281,6 +295,7 @@
 
 		<!-- js -->
 
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<script src="js/mainOjo.js"></script>
 	<script src="js/btn-ops.js"></script>

@@ -159,17 +159,17 @@
 			</a>
 		</div>
 
-		<div>
-			<a href="https://www.instagram.com/jocsanex5?r=nametag">
-				<i class="iconAgg fab fa-instagram-square" id="insta"></i>
-			</a>
-		</div>
+			<div>
+				<a href="https://www.instagram.com/jocsanex5?r=nametag">
+					<i class="iconAgg fab fa-instagram-square" id="insta"></i>
+				</a>
+			</div>
 
-		<div>
-			<a href="https://wa.me/qr/ASNZNNUYE6QKK1">
-				<i class="iconAgg fab fa-whatsapp-square" id="whats"></i>
-			</a>
-		</div>
+			<div>
+				<a href="https://wa.me/qr/ASNZNNUYE6QKK1">
+					<i class="iconAgg fab fa-whatsapp-square" id="whats"></i>
+				</a>
+			</div>
 
 		<div>
 			<a href="https://github.com/jocsanex5">

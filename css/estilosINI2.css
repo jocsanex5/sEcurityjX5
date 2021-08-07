@@ -119,7 +119,7 @@
 }
 
 .dibuj article #logo .ojo{
-	background: blue;
+	background: #00a2e8;
 	width: 100px;
 	height: 130px;
 	border-radius: 20px;
@@ -252,4 +252,8 @@ alm-contras li:hover{
 	border-radius: 20px;
 	box-shadow: 2px 2px 6px 3px #0c191f;
 	margin: 10px;
+}
+
+.proyec .fa-github{
+    font-size: 100px;
 }

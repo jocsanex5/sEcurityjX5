@@ -5,7 +5,7 @@
 */
 
 /*-----Estilos generales-----*/
-*{ margin: 0; padding: 0; }
+*{ margin: 0; padding: 0; scroll-behavior: smooth; }
 
 body{
 	text-align: center;
@@ -81,6 +81,28 @@ header nav ul li a:hover{
 	font-weight: bold;
 	padding: 8px 15px;
 	margin: 2px;
+}
+
+/*
+    menu
+*/
+
+li.li_ops{
+    margin: 10px;
+    padding: 15px;
+    list-style:  none;
+    border-top: 3px solid #05224e;
+}
+
+li.li_ops a{
+    color: #595959;
+    text-decoration: none;font-size: 18px;
+    transition: all 0.4s;
+}
+
+li.li_ops a:hover{
+    font-size: 22px;
+    color: #000;
 }
 
 /*----El contenedor de la bienvenida al usuario----*/
