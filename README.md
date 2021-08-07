@@ -10,7 +10,7 @@ take into account the following:
 
 #### "Why remember so many passwords? Just one is enough ..."
 
-#### All data is encrypted using an encryption system developed in php and managed with MYSQL
+#### all data when sent is encrypted using an encryption system developed in PHP managed with MYSQL
 
 # Link
 
